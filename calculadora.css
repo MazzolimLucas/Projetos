@@ -1,0 +1,71 @@
+body{
+
+    top: 20px;
+    position: relative;
+    margin: auto;
+    border: black solid;
+    width: 653px;
+    height: 745px;
+}
+.display_geral{
+
+    background: linear-gradient(to right, #d8cdcd, #857171);
+    height: 180px;
+    width: 650px;
+    border: black solid;
+    border-width: 1.5px;
+    z-index: 2;
+    border-right: 2px black solid;
+}
+.botoes{
+
+    background: linear-gradient(to right, #a59f9f, #cc6f6f);
+    display: grid;
+    grid-template-columns: 162.5px 162.5px 162.5px 162.5px;
+    width: 652px;
+    height: 565px;
+    border-right: black 1px solid;
+}
+.elemento{
+
+    display: flex;
+    border: black solid;
+    height: 110px;
+    width: 162.5px;
+    justify-content: center;
+    border-width: 0.5px;
+}
+p{
+
+    align-self: center;
+    height: fit-content;
+    font-size: 45px;
+   /* border: black solid;*/
+}
+input{
+
+    height: 175px;
+    width: 642px;
+    background: linear-gradient(to right, #d8cdcd, #857171);
+    font-size: 85px;
+
+}
+.elemento:hover{
+
+    background-color: #d7cfec;
+
+
+}
+.elemento:active{
+
+    background-color: #a59f9f;
+
+}
+#display{
+
+    display: flex;
+    justify-content:safe;
+    font-size: 120px;
+    position: relative;
+    bottom: 95px;
+}
