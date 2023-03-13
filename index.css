@@ -1,0 +1,135 @@
+body{
+
+    padding: 0;
+    margin: 0;
+
+}
+header{
+
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 85px;
+    width: 99.58%;
+
+}
+
+nav{
+
+    position: relative;
+    left: 30px;
+    font-weight: 550;
+
+}
+
+.logo{
+
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 68px;
+
+}
+
+ul{
+
+    display: flex;
+    list-style: none;
+
+}
+
+li{
+
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+   
+
+}
+
+.li_mudavel:hover{
+
+    text-decoration: underline;
+    
+
+}
+
+li a{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.cadastro{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: rgb(192, 189, 189) solid;
+    border-radius: 24px;
+    width: 140px;
+    height: 40px;
+    border-width: 1px;
+    position: relative;
+    left: 585px;
+    top: 3px;
+
+}
+
+.cadastro:hover{
+
+    cursor: pointer;
+    border-color: black;
+
+}
+
+.cadastro img{
+
+    height: 32px;
+    width: 32px;
+    position: relative;
+    top: 5px;
+    margin-bottom: 10px;
+    right: 10px;
+    
+
+}
+
+.cadastrar{
+
+    position: relative;
+    right: 5px;
+
+}
+
+.interrogacao{
+
+    width: 21px;
+    height: 21px;
+    position: relative;
+    left: 590px;
+    top: 9px;
+
+}
+
+.interrogacao:hover{
+
+    cursor: pointer;
+
+}
+
+.seta_preta{
+
+    position: relative;
+    width: 16px; height: 16px;
+    left: 5.5px; 
+    
+
+}
+
+.banner_1{
+
+    width: 100%;
+
+}
