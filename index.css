@@ -6,14 +6,32 @@ body{
 }
 header{
 
+    position: relative;
     padding: 0;
     margin: 0;
     display: flex;
     align-items: center;
     height: 85px;
-    width: 99.58%;
+    width: 100%;
+    z-index: 1;
+    transition: background-color 0.5s;
 
 }
+
+.headerRolagem{
+
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        height: 85px;
+        width: 100%;
+        background-color: white;
+        position: fixed;
+        transform: background-color 2s;
+        
+}
+
 
 nav{
 
@@ -29,6 +47,10 @@ nav{
     width: 50px;
     height: 50px;
     left: 68px;
+    border: black solid;
+    border-radius: 30px;
+    border-width: 1px;
+    border-color: white;
 
 }
 
@@ -57,11 +79,28 @@ li{
 li a{
 
     text-decoration: none;
-    color: black;
+    color: white;
 
 }
 
 .cadastro{
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #afadad solid;
+    border-radius: 24px;
+    width: 140px;
+    height: 40px;
+    border-width: 1px;
+    position: relative;
+    left: 550px;
+    top: 5px;
+
+}
+
+.cadastrorolagem{
 
     display: flex;
     justify-content: center;
@@ -72,16 +111,25 @@ li a{
     height: 40px;
     border-width: 1px;
     position: relative;
-    left: 585px;
-    top: 3px;
+    left: 550px;
+    top: 5px;
+
 
 }
 
 .cadastro:hover{
 
     cursor: pointer;
+    border-color: rgb(255, 255, 255);
+
+}
+
+.cadastrorolagem:hover{
+
+    cursor: pointer;
     border-color: black;
 
+    
 }
 
 .cadastro img{
@@ -93,6 +141,17 @@ li a{
     margin-bottom: 10px;
     right: 10px;
     
+
+}
+
+.cadastrorolagem img{
+
+    height: 32px;
+    width: 32px;
+    position: relative;
+    top: 5px;
+    margin-bottom: 10px;
+    right: 10px;
 
 }
 
@@ -108,8 +167,8 @@ li a{
     width: 21px;
     height: 21px;
     position: relative;
-    left: 590px;
-    top: 9px;
+    left: 555px;
+    top: 11px;
 
 }
 
@@ -128,8 +187,19 @@ li a{
 
 }
 
+.seta_branca{
+
+    position: relative;
+    width: 14px; height: 14px;
+    left: 6.5px;
+    top: 2.5px; 
+
+}
+
 .banner_1{
 
     width: 100%;
+    position: relative;
+    bottom: 85px;
 
 }
